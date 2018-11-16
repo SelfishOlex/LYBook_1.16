@@ -137,3 +137,9 @@
 /dev/SetupAssistantUserPreferences.ini
 /dev/_WAF_/environment.json
 /SetupAssistant.bat
+dev/CloudGemDefectReportSample/Gem/Resources/GameSDK.ico
+filehashes.json
+dev/UserSettings.xml
+dev/SessionStatus/editor_statuses.json
+dev/Editor/editorlayout.xml
+dev/Editor/editoreventlog.xml
