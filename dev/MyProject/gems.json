@@ -44,6 +44,12 @@
             "_comment": "ScriptCanvasPhysics"
         },
         {
+            "Path": "Gems/WindowPosition",
+            "Uuid": "1d5b9f4599f9452491aa0f9edf53688c",
+            "Version": "0.1.0",
+            "_comment": "WindowPosition"
+        },
+        {
             "Path": "Gems/HttpRequestor",
             "Uuid": "28479e255bde466e91fc34eec808d9c7",
             "Version": "1.0.0",

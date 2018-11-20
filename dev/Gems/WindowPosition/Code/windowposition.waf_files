@@ -1,0 +1,12 @@
+{
+    "auto": {
+        "Include": [
+            "Include/WindowPosition/WindowPositionBus.h"
+        ],
+        "Source": [
+            "Source/WindowPositionModule.cpp",
+            "Source/WindowPositionCommands.cpp",
+            "Source/WindowPositionCommands.h"
+        ]
+    }
+}

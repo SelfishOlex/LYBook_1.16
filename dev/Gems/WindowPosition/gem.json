@@ -1,0 +1,15 @@
+{
+    "GemFormatVersion": 4,
+    "Uuid": "1d5b9f4599f9452491aa0f9edf53688c",
+    "Name": "WindowPosition",
+    "DisplayName": "WindowPosition",
+    "Version": "0.1.0",
+    "Summary": "Provides console commands: +windowx 5 or +windowy 6 or +windowxy 5 6",
+    "Tags": ["Untagged"],
+    "IconPath": "preview.png",
+    "Modules": [
+        {
+            "Type": "GameModule"
+        }
+    ]
+}
