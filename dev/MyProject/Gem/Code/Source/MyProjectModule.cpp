@@ -7,6 +7,7 @@
 #include <StartingMapSystemComponent.h>
 #include <TransformSyncComponent.h>
 #include <MyUIStatusComponents.h>
+#include <MyScriptHelperComponent.h>
 
 namespace MyProject
 {
@@ -36,6 +37,8 @@ namespace MyProject
                 MyUIBackwardComponent::CreateDescriptor(),
                 MyUIStrafeLeftComponent::CreateDescriptor(),
                 MyUIStrafeRightComponent::CreateDescriptor(),
+
+                MyScriptHelperComponent::CreateDescriptor(),
             });
         }
 
