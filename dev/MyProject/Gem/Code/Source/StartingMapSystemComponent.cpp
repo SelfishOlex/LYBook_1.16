@@ -1,6 +1,10 @@
 #include "StartingMapSystemComponent.h"
 #include <AzCore/Serialization/EditContext.h>
 #include <AzFramework/Components/ConsoleBus.h>
+#include <platform.h>
+#include <platform_impl.h>
+#include <CrySystemBus.h>
+#include <ISystem.h>
 
 using namespace AZ;
 using namespace MyProject;
@@ -49,6 +53,16 @@ void StartingMapSystemComponent::Deactivate()
 
 void StartingMapSystemComponent::OnSystemTick()
 {
+    ISystem* system = nullptr;
+    CrySystemRequestBus::BroadcastResult(system,
+        &CrySystemRequestBus::Events::GetCrySystem);
+    if (system && system->GetGlobalEnvironment() &&
+        system->GetGlobalEnvironment()->IsEditor())
+    {
+        BusDisconnect();
+        return; // skip running these commands in the editor
+    }
+
     AZStd::string mapCommand("map ");
 #if defined(DEDICATED_SERVER)
     AzFramework::ConsoleRequestBus::Broadcast(
