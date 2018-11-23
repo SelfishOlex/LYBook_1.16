@@ -6,6 +6,7 @@
 #include <MySpawnerComponent.h>
 #include <StartingMapSystemComponent.h>
 #include <TransformSyncComponent.h>
+#include <MyUIStatusComponents.h>
 
 namespace MyProject
 {
@@ -30,6 +31,11 @@ namespace MyProject
                 MySpawnerComponent::CreateDescriptor(),
                 StartingMapSystemComponent::CreateDescriptor(),
                 TransformSyncComponent::CreateDescriptor(),
+
+                MyUIForwardComponent::CreateDescriptor(),
+                MyUIBackwardComponent::CreateDescriptor(),
+                MyUIStrafeLeftComponent::CreateDescriptor(),
+                MyUIStrafeRightComponent::CreateDescriptor(),
             });
         }
 
