@@ -12,6 +12,11 @@ local Orbiting =
 
 function Orbiting:OnActivate()
      -- Activation Code
+
+    -- example of a trace message
+    Debug.Log("Is this editor? " .. 
+        tostring(MyHelperBus.Broadcast.IsEditor()))
+
     if MyHelper.IsServer(self.entityId) then
         Debug.Log("Orbiting activated")
         self.tickHandler = TickBus.Connect(self)
