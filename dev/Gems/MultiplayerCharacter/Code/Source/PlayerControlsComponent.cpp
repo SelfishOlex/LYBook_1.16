@@ -3,6 +3,7 @@
 #include <LmbrCentral/Physics/CryCharacterPhysicsBus.h>
 #include <AzCore/Math/Vector3.h>
 #include <AzCore/Component/TransformBus.h>
+#include <MultiplayerCharacter/PebbleSpawnerComponentBus.h>
 
 using namespace AZ;
 using namespace MultiplayerCharacter;
@@ -72,6 +73,24 @@ void PlayerControlsComponent::Turn(float amount)
 {
     m_rotZ = amount * m_turnSpeed;
     SetRotation();
+}
+
+void PlayerControlsComponent::Shoot(ActionState state)
+{
+    m_isShooting = state == ActionState::Started;
+    if (state != ActionState::Stopped) return; // fire on release
+
+    AZ::Transform myLocation;
+    TransformBus::EventResult(myLocation, GetEntityId(),
+        &TransformBus::Events::GetWorldTM);
+    // place the pebble a little in front of the player
+    const auto q = Quaternion::CreateFromTransform(myLocation);
+    const Vector3 disp = q * AZ::Vector3::CreateAxisY( 1.f );
+    myLocation.SetTranslation(myLocation.GetTranslation() + disp);
+
+    PebbleSpawnerComponentBus::Broadcast(
+        &PebbleSpawnerComponentBus::Events::SpawnPebbleAt,
+        myLocation);
 }
 
 void PlayerControlsComponent::SetRotation()

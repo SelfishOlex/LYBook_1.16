@@ -29,6 +29,7 @@ namespace MultiplayerCharacter
         void StrafeLeft(ActionState state) override;
         void StrafeRight(ActionState state) override;
         void Turn(float amount) override;
+        void Shoot(ActionState state) override;
 
         // TickBus interface
         void OnTick(float dt, AZ::ScriptTimePoint) override;
@@ -38,6 +39,7 @@ namespace MultiplayerCharacter
         bool m_isBackward = false;
         bool m_isStrafingLeft = false;
         bool m_isStrafingRight = false;
+        bool m_isShooting = false;
 
         float m_speed = 500.f;
         float m_turnSpeed = 3.f;
