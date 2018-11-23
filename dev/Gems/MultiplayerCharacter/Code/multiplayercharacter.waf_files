@@ -1,0 +1,19 @@
+{
+    "auto": {
+        "Include": [
+            "Include/MultiplayerCharacter/PlayerControlsRequestBus.h",
+            "Include/MultiplayerCharacter/MultiplayerCharacterBus.h"
+        ],
+        "Source": [
+            "Source/MultiplayerCharacterModule.cpp",
+            "Source/CameraControlsComponent.cpp",
+            "Source/CameraControlsComponent.h",
+            "Source/InputCaptureComponent.cpp",
+            "Source/InputCaptureComponent.h",
+            "Source/PlayerControlsComponent.cpp",
+            "Source/PlayerControlsComponent.h",
+            "Source/MultiplayerCharacterSystemComponent.cpp",
+            "Source/MultiplayerCharacterSystemComponent.h"
+        ]
+    }
+}

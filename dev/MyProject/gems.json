@@ -50,6 +50,12 @@
             "_comment": "WindowPosition"
         },
         {
+            "Path": "Gems/MultiplayerCharacter",
+            "Uuid": "27216e65cdcc466294f1ce1c6da72521",
+            "Version": "0.1.0",
+            "_comment": "MultiplayerCharacter"
+        },
+        {
             "Path": "Gems/HttpRequestor",
             "Uuid": "28479e255bde466e91fc34eec808d9c7",
             "Version": "1.0.0",
