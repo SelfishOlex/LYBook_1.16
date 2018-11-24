@@ -1,6 +1,8 @@
 {
     "auto": {
         "Include": [
+            "Include/MultiplayerCharacter/LocalClientBus.h",
+            "Include/MultiplayerCharacter/ServerPlayerBodyBus.h",
             "Include/MultiplayerCharacter/FootstepComponentBus.h",
             "Include/MultiplayerCharacter/PebbleSpawnerComponentBus.h",
             "Include/MultiplayerCharacter/PlayerControlsRequestBus.h",
@@ -8,6 +10,12 @@
         ],
         "Source": [
             "Source/MultiplayerCharacterModule.cpp",
+            "Source/LocalClientComponent.cpp",
+            "Source/LocalClientComponent.h",
+            "Source/ServerAuthPlayerComponent.cpp",
+            "Source/ServerAuthPlayerComponent.h",
+            "Source/ServerPlayerSpawnerComponent.cpp",
+            "Source/ServerPlayerSpawnerComponent.h",
             "Source/CameraControlsComponent.cpp",
             "Source/CameraControlsComponent.h",
             "Source/FootstepComponent.cpp",

@@ -7,6 +7,9 @@
 #include <PebbleSpawnerComponent.h>
 #include <TimedProjectileComponent.h>
 #include <FootstepComponent.h>
+#include <LocalClientComponent.h>
+#include <ServerAuthPlayerComponent.h>
+#include <ServerPlayerSpawnerComponent.h>
 #include <platform_impl.h>
 
 namespace MultiplayerCharacter
@@ -29,6 +32,9 @@ namespace MultiplayerCharacter
                 PebbleSpawnerComponent::CreateDescriptor(),
                 PlayerControlsComponent::CreateDescriptor(),
                 TimedProjectileComponent::CreateDescriptor(),
+                LocalClientComponent::CreateDescriptor(),
+                ServerAuthPlayerComponent::CreateDescriptor(),
+                ServerPlayerSpawnerComponent::CreateDescriptor(),
                 MultiplayerCharacterSystemComponent::CreateDescriptor(),
             });
         }
