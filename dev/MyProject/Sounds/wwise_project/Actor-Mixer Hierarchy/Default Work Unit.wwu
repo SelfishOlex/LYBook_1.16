@@ -29,6 +29,212 @@
 						<ActiveSource Name="Music_amb_BeautifulPlanet" ID="{3876010D-2661-405B-AEAE-655CCC049FA1}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<RandomSequenceContainer Name="My_Footsteps" ID="{C8283BCE-E89D-4311-881C-72DD1BEE383E}" ShortID="360441372">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{65D136A0-A145-46B2-B361-773751FE5489}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FAA8DDB0-03CF-4C2C-A329-920D4A7F34E3}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="footstep_run_rock_1" ID="{D38F02F3-3B8A-4B11-BEA2-81AE1B51CA08}" ShortID="856583278">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{65D136A0-A145-46B2-B361-773751FE5489}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FAA8DDB0-03CF-4C2C-A329-920D4A7F34E3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="footstep_run_rock_1" ID="{24D2DB83-2082-4E4C-A7A7-2139859CBDC6}" ShortID="115502946">
+									<Language>SFX</Language>
+									<AudioFile>footstep_run_rock_1.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="footstep_run_rock_1" ID="{24D2DB83-2082-4E4C-A7A7-2139859CBDC6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="footstep_run_rock_2" ID="{C68DEC22-50BB-44AD-AEAC-991BC33CBCB5}" ShortID="363648391">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{65D136A0-A145-46B2-B361-773751FE5489}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FAA8DDB0-03CF-4C2C-A329-920D4A7F34E3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="footstep_run_rock_2" ID="{5AA6C579-DA95-4236-AEFC-D5256484B3E5}" ShortID="253913003">
+									<Language>SFX</Language>
+									<AudioFile>footstep_run_rock_2.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="footstep_run_rock_2" ID="{5AA6C579-DA95-4236-AEFC-D5256484B3E5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="footstep_run_rock_3" ID="{00DE90EB-7BA3-4866-A818-5927CF4BFDAC}" ShortID="652312730">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{65D136A0-A145-46B2-B361-773751FE5489}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FAA8DDB0-03CF-4C2C-A329-920D4A7F34E3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="footstep_run_rock_3" ID="{29108002-5D9B-4221-B4B5-5BCBFECC2598}" ShortID="975410539">
+									<Language>SFX</Language>
+									<AudioFile>footstep_run_rock_3.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="footstep_run_rock_3" ID="{29108002-5D9B-4221-B4B5-5BCBFECC2598}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="footstep_run_rock_4" ID="{5CFF7F8F-F2C1-4F7A-A1C0-7CBA1F8CAAF0}" ShortID="705566202">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{65D136A0-A145-46B2-B361-773751FE5489}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FAA8DDB0-03CF-4C2C-A329-920D4A7F34E3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="footstep_run_rock_4" ID="{66181D26-C7F0-4EF9-A130-78E514A17D37}" ShortID="987598985">
+									<Language>SFX</Language>
+									<AudioFile>footstep_run_rock_4.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="footstep_run_rock_4" ID="{66181D26-C7F0-4EF9-A130-78E514A17D37}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="footstep_run_rock_5" ID="{F6F055FF-33F5-4677-A142-58BC19A4ECDA}" ShortID="98515459">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{65D136A0-A145-46B2-B361-773751FE5489}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FAA8DDB0-03CF-4C2C-A329-920D4A7F34E3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="footstep_run_rock_5" ID="{BCC493D0-865E-4513-B0BD-9132D3FE2860}" ShortID="4321812">
+									<Language>SFX</Language>
+									<AudioFile>footstep_run_rock_5.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="footstep_run_rock_5" ID="{BCC493D0-865E-4513-B0BD-9132D3FE2860}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="footstep_run_rock_6" ID="{80AB60C5-874B-457E-A837-F20C4C80436C}" ShortID="745517318">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{65D136A0-A145-46B2-B361-773751FE5489}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FAA8DDB0-03CF-4C2C-A329-920D4A7F34E3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="footstep_run_rock_6" ID="{13E76031-34B6-473D-BC08-D1E213D3D5BD}" ShortID="607608449">
+									<Language>SFX</Language>
+									<AudioFile>footstep_run_rock_6.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="footstep_run_rock_6" ID="{13E76031-34B6-473D-BC08-D1E213D3D5BD}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="footstep_run_rock_7" ID="{B6E57EFE-C1FD-4795-8A7D-DFC6D7595D06}" ShortID="984071348">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{65D136A0-A145-46B2-B361-773751FE5489}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FAA8DDB0-03CF-4C2C-A329-920D4A7F34E3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="footstep_run_rock_7" ID="{76E5B432-ABDD-4F66-BE47-6F844826143F}" ShortID="248825390">
+									<Language>SFX</Language>
+									<AudioFile>footstep_run_rock_7.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="footstep_run_rock_7" ID="{76E5B432-ABDD-4F66-BE47-6F844826143F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="footstep_run_rock_8" ID="{BC04015E-70BF-4B04-81E7-A732FCBFC613}" ShortID="1045477012">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{65D136A0-A145-46B2-B361-773751FE5489}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FAA8DDB0-03CF-4C2C-A329-920D4A7F34E3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="footstep_run_rock_8" ID="{B1FE186E-636B-4D08-818D-45033C0641A9}" ShortID="190972205">
+									<Language>SFX</Language>
+									<AudioFile>footstep_run_rock_8.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="footstep_run_rock_8" ID="{B1FE186E-636B-4D08-818D-45033C0641A9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

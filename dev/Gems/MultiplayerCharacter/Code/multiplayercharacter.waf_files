@@ -1,6 +1,7 @@
 {
     "auto": {
         "Include": [
+            "Include/MultiplayerCharacter/FootstepComponentBus.h",
             "Include/MultiplayerCharacter/PebbleSpawnerComponentBus.h",
             "Include/MultiplayerCharacter/PlayerControlsRequestBus.h",
             "Include/MultiplayerCharacter/MultiplayerCharacterBus.h"
@@ -9,6 +10,8 @@
             "Source/MultiplayerCharacterModule.cpp",
             "Source/CameraControlsComponent.cpp",
             "Source/CameraControlsComponent.h",
+            "Source/FootstepComponent.cpp",
+            "Source/FootstepComponent.h",
             "Source/InputCaptureComponent.cpp",
             "Source/InputCaptureComponent.h",
             "Source/PebbleSpawnerComponent.cpp",

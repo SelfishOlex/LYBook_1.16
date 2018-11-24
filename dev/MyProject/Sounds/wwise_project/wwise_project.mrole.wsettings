@@ -5,7 +5,9 @@
 			<PropertyList>
 				<Property Name="AudioFilesImporter\Path" Type="string" Value="D:\Work\LYBook_1.16\dev\StarterGame\Sounds\wwise_project\Originals\SFX"/>
 				<Property Name="Event Action List\{1C9217E1-6DC4-4134-BAF4-0235115AE8C3}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{1E9BDD50-573F-4E90-9231-AF6C21714408}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{2EA4C702-3CB5-4E9F-B347-012B4F9956C3}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{979A1A56-E698-41E5-9F66-57BD96B4E82A}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>

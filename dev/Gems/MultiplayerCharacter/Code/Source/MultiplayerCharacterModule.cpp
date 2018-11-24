@@ -6,6 +6,8 @@
 #include <PlayerControlsComponent.h>
 #include <PebbleSpawnerComponent.h>
 #include <TimedProjectileComponent.h>
+#include <FootstepComponent.h>
+#include <platform_impl.h>
 
 namespace MultiplayerCharacter
 {
@@ -22,6 +24,7 @@ namespace MultiplayerCharacter
             // Push results of [MyComponent]::CreateDescriptor() into m_descriptors here.
             m_descriptors.insert(m_descriptors.end(), {
                 CameraControlsComponent::CreateDescriptor(),
+                FootstepComponent::CreateDescriptor(),
                 InputCaptureComponent::CreateDescriptor(),
                 PebbleSpawnerComponent::CreateDescriptor(),
                 PlayerControlsComponent::CreateDescriptor(),
