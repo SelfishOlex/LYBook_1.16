@@ -45,6 +45,7 @@ namespace MultiplayerCharacter
         float m_turnSpeed = 3.f;
 
         float m_rotZ = 0.f;
+        float m_prevTurn = 0.f;
         void SetRotation();
     };
 }
