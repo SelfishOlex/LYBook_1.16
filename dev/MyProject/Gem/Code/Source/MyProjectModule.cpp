@@ -7,6 +7,7 @@
 #include <StartingMapSystemComponent.h>
 #include <TransformSyncComponent.h>
 #include <MyUIStatusComponents.h>
+#include <MyUICanvasLoaderComponent.h>
 #include <MyScriptHelperComponent.h>
 #include <MyScriptSystemComponent.h>
 #include <ScriptCanvas/MyNodeLibrary.h>
@@ -39,6 +40,7 @@ namespace MyProject
                 MyUIBackwardComponent::CreateDescriptor(),
                 MyUIStrafeLeftComponent::CreateDescriptor(),
                 MyUIStrafeRightComponent::CreateDescriptor(),
+                MyUICanvasLoaderComponent::CreateDescriptor(),
 
                 MyScriptHelperComponent::CreateDescriptor(),
                 MyScriptSystemComponent::CreateDescriptor(),
