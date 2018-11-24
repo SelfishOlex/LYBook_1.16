@@ -10,6 +10,7 @@
 #include <LocalClientComponent.h>
 #include <ServerAuthPlayerComponent.h>
 #include <ServerPlayerSpawnerComponent.h>
+#include <PlayerActionRelayComponent.h>
 #include <platform_impl.h>
 
 namespace MultiplayerCharacter
@@ -35,6 +36,7 @@ namespace MultiplayerCharacter
                 LocalClientComponent::CreateDescriptor(),
                 ServerAuthPlayerComponent::CreateDescriptor(),
                 ServerPlayerSpawnerComponent::CreateDescriptor(),
+                PlayerActionRelayComponent::CreateDescriptor(),
                 MultiplayerCharacterSystemComponent::CreateDescriptor(),
             });
         }
